@@ -1,10 +1,9 @@
 from fastapi import FastAPI
 from fastapi import Request, Response
 from fastapi.responses import PlainTextResponse, JSONResponse
-from pydantic import BaseModel
+
 import uvicorn
-import json
-import jwt
+
 import boto3
 
 
